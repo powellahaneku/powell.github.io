@@ -11,6 +11,12 @@
 	}
 }
 
+@media(max-width: 768px) {
+	.d-medium-none{
+		display: none;
+	}
+}
+
 *{
 	margin: 0px;
 	padding: 0px;
