@@ -36,6 +36,7 @@ function addListAfterKeypress(event){
 
 // Practicing script for custom button
 var target = document.querySelectorAll("ul")
+datalist = []
 for (var i = 0; i < target.length; i++){
     var text = target[i].innerText;
     datalist.push(text)
@@ -66,3 +67,14 @@ colorValue2.addEventListener("input", changeColors);
 Button.addEventListener("click", addListAfterCLick);
 
 input.addEventListener("keypress", addListAfterKeypress);
+
+
+
+//  Let and const practice
+const player = "bobby";
+let experience = 100;
+let wizardLevel = false;
+
+if (experience > 90){
+    let wizardLevel = true;
+}
