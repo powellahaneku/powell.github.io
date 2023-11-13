@@ -1,5 +1,5 @@
 import React from 'react'
-
+import movingdata from './movingdata.gif'
 
 
 const Showcase = () => {
@@ -23,10 +23,7 @@ const Showcase = () => {
                             </button>
                         </div>
                     </div>
-                <div>
-                    <img className="img-fluid w-50 d-small-none " src="movingdata.gif" alt="" ></img>
-
-                </div>
+                        <img className="img-fluid w-50 d-small-none " src={movingdata} alt="" ></img>           
             </div>
             </div>
         </section>
