@@ -5,6 +5,8 @@ import { Pagetext } from './Components/Pagetext';
 import { Projectcards } from './Components/Projectcards';
 import Showcase from './Components/Showcase'
 import { Footer } from './Components/Footers';
+import { Accordion } from './Components/Accordion';
+import { Skillslist } from './Components/Skillslist';
 
 function App() {
   return (
@@ -14,9 +16,8 @@ function App() {
       <Newsletter/>
       <Projectcards/>
       <Pagetext/>
-
-
-      
+      <Skillslist/>
+      <Accordion/>
       <Footer/>
             </div>
   );

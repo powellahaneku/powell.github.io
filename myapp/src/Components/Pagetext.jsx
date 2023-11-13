@@ -1,22 +1,23 @@
 import React from 'react'
-import dashboard from './dashboard.png'
 import datapic from './datapic.png'
 
 // Only two slides intended for this page
 
 const content = [
-{
-    heading:'Diversify your Data Team',
+  {
+    heading: 'Unlock the Power of Diverse Data Teams',
     photo: datapic,
-    text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis/nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis/nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis/n",
-    link:''
-  },{
-    heading:'Powerful Finance and Python Knowledge',
+    text: "Elevate your data team with my expertise. As a seasoned professional, I bring a unique blend of technical prowess and collaborative spirit. By fostering an inclusive environment, I empower teams to innovate, ensuring that diverse perspectives drive exceptional results. Let's revolutionize your data strategy together.",
+    link: ''
+  },
+  {
+    heading: 'Mastering Finance and Python for Business Success',
     photo: 'https://img.freepik.com/premium-vector/sales-performance-concept-with-people-scene-woman-man-analyzes-financial-data-makes-presentation-with-business-statistics-profit-vector-illustration-with-characters-flat-design-web_9209-9831.jpg?w=1060',
-    text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis/n',
-    link:''
-}
-]
+    text: "Position yourself for success with my expertise in finance and advanced Python skills. I bring a strategic mindset to financial analysis, leveraging data to make informed decisions that drive business growth. Ready to make a lasting impact on your organization's bottom line.",
+    link: ''
+  }
+];
+
 
 
 
